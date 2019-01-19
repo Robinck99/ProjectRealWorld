@@ -1,8 +1,39 @@
 body {
-  background: #ffffff url("kiminowa.jpg") no-repeat center top;
+	margin: 0;
+	background: #ffffff  no-repeat center top;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+.topnav {
+	 width: 100%;
+	 display: flex;
+	 background-color: #000000;
+	 overflow: hidden;
+	 justify-content: center;
+}
+
+.tabs {
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  font-family:verdana;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ffcf40;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffbf00;
+  color: white;
 }
