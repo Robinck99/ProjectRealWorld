@@ -56,7 +56,7 @@
                 text-align: center;
                 padding: 10px 20px;
                 margin: auto 5px;
-                font-family: verdana;
+                font-family: verdana,serif;
                 border-radius: 10px;
                 height: 20px;
                 text-decoration: none;
@@ -71,7 +71,6 @@
             }
 
             .searchElement {
-                border: 0px;
                 width: 270px;
                 float: left;
                 height: 20px;
@@ -85,7 +84,7 @@
 
             ::placeholder {
                 color: white;
-                font-family: verdana;
+                font-family: verdana,serif;
                 font-size: 18px;
                 text-decoration: none;
             }
@@ -112,7 +111,7 @@
      <div class="topnav">
         <div class="tabs">
             <div class="profile">
-                <img class="profile_img" src="../img/profile.png"/>
+                <img class="profile_img" src="img/profile.png"/>
             </div>
             <a class="active" href="#home">Home</a>
             <a href="/news">News</a>
@@ -121,7 +120,7 @@
             <div class="searchbarContainer">
                 <form action="/" method="post">
                     <input class="searchElement" name="searchElement"/>
-                    <input class="searchLogo" src="../img/search.png" type="image" alt="Submit"/>
+                    <input class="searchLogo" src="img/search.png" type="image" alt="Submit"/>
                 </form>
             </div>
         </div>
